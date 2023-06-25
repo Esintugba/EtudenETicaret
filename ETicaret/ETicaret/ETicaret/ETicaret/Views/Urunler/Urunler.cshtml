@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ETicaret.Models.Urunler>
+@{
+    ViewData["Title"] = "Urunler";
+    var kategoriListesi = ViewBag.Kategori as IEnumerable<Kategori>;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: 8px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .card-body {
+        font-size: 16px;
+        font-weight: 400px;
+        color: #484848;
+        line-height: 1.35em;
+    }
+
+    .price {
+        color: grey;
+        font-size: 22px;
+    }
+
+    #buton {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+        #buton:hover {
+            opacity: 0.7;
+        }
+
+    .card-footer {
+        border-top: none;
+    }
+
+</style>
+@await Html.PartialAsync("_NavBar");
+<body>
+    <div class="container-fluid" style="padding-left:15%;  margin-top: 2%;">
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="card" style="width:400px">
+                            <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height:335px;">
+                            <div class="card-body">
+                                <h5 class="price">@item.Price<i class="fa fa-turkish-lira" style="font-size:24px"></i></h5>
+                                <p class="Description">@item.Description</p>
+
+                            </div>
+                            <div class="card-footer">
+                                <a asp-controller="Urunler" asp-action="Detay" asp-route-id="@item.Id" id="buton" class="btn btn-primary">İncele</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+

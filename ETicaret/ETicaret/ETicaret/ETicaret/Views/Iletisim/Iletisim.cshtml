@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Iletisim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/iletisim/css/style.css">
+
+<body>
+    <div class="cerceve">
+        <section id="iletisim" class="py-5 mb-3">
+            <div class="row ">
+                <div class="col-lg-7 harita-iletisim wow fadeInLeft">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3061.909813833546!2d41.22289!3d39.876258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406e5c29da58ec23%3A0xc1124571e6bfadbd!2sErzurum+Teknik+%C3%9Cniversitesi!5e0!3m2!1str!2s!4v1422706821001"
+                            width="100%" height="600px" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-lg-5 pl-5 pt-3">
+                    <div class="pl-5">
+                        <h2 class="font-weight-bold pb-2 wow fadeInRight">İletişim</h2>
+                        <p class="wow fadeInRight">Test <br>San. Tic. Ltd. Şti</p>
+                        <p class="wow fadeInRight">Erzurum Teknoloji Geliştirme Merkezi <br>Test Yazılım Geliştirme</p>
+                        <p class="wow fadeInRight">+90 532 532 532 <br>www.testsite.com</p>
+                        <h2 class="font-weight-bold pb-2 wow fadeInRight" data-wow-duration="2s">Bize Yazın</h2>
+                        <form class="form-group text-center" action="">
+                            <input type="text" class="form-control my-2 wow fadeInRight" data-wow-duration="1s" placeholder="Adınız" name="" id="">
+                            <input type="text" class="form-control my-2 wow fadeInRight" data-wow-duration="1.5s" placeholder="Soyadınız" name="" id="">
+                            <input type="text" class="form-control my-2 wow fadeInRight" data-wow-duration="2.0s" placeholder="Mail Adresiniz" name="" id="">
+                            <input type="text" class="form-control my-2 wow fadeInRight" data-wow-duration="2.5s" placeholder="Konu" name="" id="">
+                            <textarea name="" class="form-control my-2 wow fadeInRight" data-wow-duration="3s" id="" cols="30" rows="2"
+                                      placeholder="Mesajınız"></textarea>
+                            <button class="btn btn-dark w-50 wow fadeInUp">Gönder</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Wow JS -->
+    <script src="~/iletisim/script/jquery.js" type="text/JavaScript"></script>
+    <script src="~/iletisim/script/popper.min.js" type="text/JavaScript"></script>
+    <script src="~/iletisim/script/bootstrap.js" type="text/JavaScript"></script>
+    <!-- Animation -->
+    <script src="~/iletisim/script/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>

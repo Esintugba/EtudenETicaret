@@ -1,0 +1,37 @@
+﻿@using ETicaret.Models
+@model List<Urunler>
+
+@{
+    ViewBag.Title = "UrunListele";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Urun Listesi </h2>
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>ADI</th>
+        <th>KATEGORİ ID</th>
+        <th>FOTOĞRAF</th>
+        <th>FİYAT</th>
+        <th>AÇIKLAMA</th>
+        <th>SİL</th>
+        <th>GÜNCELLE</th>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.Name</td>
+            <td>@x.CategoryId</td>
+            <td>@x.ImageUrl</td>
+            <td>@x.Price</td>
+            <td>@x.Description</td>
+            <td><a href="/Admin/Giris/UrunSil/@x.Id" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Areas/Admin/Giris/UrunGuncelle/@x.Id" class="btn btn-warning">Güncelle</a></td>
+        </tr>
+    }
+</table>

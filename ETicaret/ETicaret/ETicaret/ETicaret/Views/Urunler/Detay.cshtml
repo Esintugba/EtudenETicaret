@@ -1,0 +1,140 @@
+﻿@model ETicaret.Models.Urunler
+@{
+    ViewData["Title"] = "Urunler";
+    var kategoriListesi = ViewBag.Kategori as IEnumerable<Kategori>;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .card-text {
+        font-size: 24px;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+
+    .card-title {
+        font-size: 30px;
+        line-height: 1.35em;
+        font-family: sans-serif;
+    }
+
+    .adet-container {
+        align-items: center;
+        margin-top: 10%;
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
+
+    }
+
+    .adet-label {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .adet-input {
+        width: 70px;
+        padding: 0px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+    }
+
+    .beden-container {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .beden-label {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .beden-input {
+        display: none;
+    }
+
+        .beden-input + label {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .beden-input:checked + label {
+            background-color: #007bff;
+            color: #fff;
+        }
+</style>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            favoriEklendi: false
+        },
+        methods: {
+            favoriEkle: function () {
+                this.favoriEklendi = true;
+                setTimeout(() => {
+                    this.favoriEklendi = false;
+                }, 2000); // Mesajı 2 saniye sonra gizle
+            }
+        }
+    });
+
+</script>
+@await Html.PartialAsync("_NavBar");
+
+<div class="container">
+    <div class="card mb-3">
+        <div class="card-body">
+            <div class="row ">
+                <div class="col-md-5">
+                    <img src="@Model.ImageUrl" class="card-img">
+                </div>
+                <div class="col-md-5">
+                    <h1 class="card-title" style="font-weight:bold;">@Model.Name</h1>
+                    @*<a asp-controller="Urunler" asp-action="getkategori"  class="btn btn-link p-0 mb-3">@Model.Name</a>*@
+                    <h4 class="card-text">
+                        <p class="p-0" style="margin:0px; "> Ürün açıklaması:</p>
+                        <p class="p-0" style="margin:0px; "> @Model.Description</p>
+                        <p class="p-0" style="margin:0px; ont-family:cursive; font-size:24px;"> @Model.Price  <i class="fa fa-turkish-lira" style="font-size:18px; margin-top:10%;"></i></p>
+
+                        <p style=" margin-bottom: 5px; margin-top: 20px; margin-left:0px">Beden</p>
+                        <div class="beden-container">
+                            <input type="radio" id="beden-s" name="beden" value="S" class="beden-input">
+                            <label for="beden-s" class="beden-label">S</label>
+
+                            <input type="radio" id="beden-m" name="beden" value="M" class="beden-input">
+                            <label for="beden-m" class="beden-label">M</label>
+
+                            <input type="radio" id="beden-l" name="beden" value="L" class="beden-input">
+                            <label for="beden-l" class="beden-label">L</label>
+
+                            <input type="radio" id="beden-xl" name="beden" value="XL" class="beden-input">
+                            <label for="beden-xl" class="beden-label">XL</label>
+                        </div>
+                        <div class="adet-container">
+                            <label for="adet" class="adet-label">Adet:</label>
+                            <input type="number" id="adet" name="adet" min="1" max="10" value="1" class="adet-input">
+                        </div>
+                    </h4>
+                    <button type="submit" class="btn btn-primary btn-lg" style="margin-top:-3%; ">Sepete Ekle <a href="#"><img src="~/images/shopping-cart.png"></a></button>
+                    <span>
+                        <i class="fa fa-heart-o" style="font-size:24px; padding: 4%;"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-sm" style="margin-left:40%; margin-top: 10%;">
+    <a class="col-md-12" href="#">
+        <img src="/images/Urunler/etuden2.png" alt="Bootstrap" width="25%" height="24">
+    </a>
+    <br />
+    <br />
+</div>
+
+

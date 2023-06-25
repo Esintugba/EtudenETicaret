@@ -1,0 +1,9 @@
+﻿namespace ETicaret.Models
+{
+    public class Kategori
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int CategoryId { get; set; }
+    }
+}

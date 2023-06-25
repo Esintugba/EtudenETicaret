@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<!doctype html>
+<html lang="tr">
+<head>
+
+    <!-- Head Partial -->
+    <title>Yönetim Paneli Anasayfa</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+    <!-- Tema JS&CSS -->
+    <link rel="icon" href="~/admin/Image/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" id="theme" href="~/admin/Content/css/theme-default.css" />
+
+</head>
+
+<body>
+    <div class="page-content-wrap">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3">
+
+                        <!-- WIDGET SLIDER'I BAŞLAT -->
+                        <div class="widget widget-default widget-carousel">
+                            <div class="owl-carousel" id="owl-example">
+                                <div onclick="location.href = '/Admin/HaberYonetimi/HaberListele';">
+                                    <div style="cursor:pointer" class="widget-title">Toplam Haber</div>
+                                    <div style="cursor:pointer" class="widget-int">2</div>
+                                </div>
+                                <div onclick="location.href = '/Admin/MesajYonetimi/TumMesajListele';">
+                                    <div style="cursor:pointer" class="widget-title">Toplam Mesaj</div>
+                                    <div style="cursor:pointer" class="widget-int">3</div>
+                                </div>
+                            </div>
+                            <div class="widget-controls">
+                                <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Widget'i Kaldır"><span class="fa fa-times"></span></a>
+                            </div>
+                        </div>
+                        <!-- WIDGET SLIDER'I BİTİR -->
+
+                    </div>
+                    <div class="col-md-3">
+
+                        <!-- WIDGET MESAJLARINI BAŞLAT -->
+                        <div style="cursor:pointer" class="widget widget-default widget-item-icon" onclick="location.href = '/Admin/KadroYonetimi/KadroListele';">
+                            <div class="widget-item-left">
+                                <span class="fa fa-user"></span>
+                            </div>
+                            <div class="widget-data">
+                                <div class="widget-int num-count">4</div>
+                                <div class="widget-title">Komisyon Üyesi Var</div>
+                                <div class="widget-subtitle"></div>
+                            </div>
+                            <div class="widget-controls">
+                                <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Widget'i Kaldır"><span class="fa fa-times"></span></a>
+                            </div>
+                        </div>
+                        <!-- WIDGET MESAJLARINI BİTİR -->
+
+                    </div>
+                    <div class="col-md-3">
+
+                        <!-- WIDGET KULLANICI SAYI BAŞLAT -->
+                        <div style="cursor:pointer" class="widget widget-default widget-item-icon" onclick="location.href='/Admin/KullaniciYonetimi/KullaniciListele';">
+                            <div class="widget-item-left">
+                                <span class="fa fa-user"></span>
+                            </div>
+                            <div class="widget-data">
+                                <div class="widget-int num-count">1</div>
+                                <div class="widget-title">Kayıtlı Kullanıcı</div>
+                                <div class="widget-subtitle"></div>
+                            </div>
+                            <div class="widget-controls">
+                                <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Widget'i Kaldır"><span class="fa fa-times"></span></a>
+                            </div>
+                        </div>
+                        <!-- WIDGET KULLANICI SAYI BİTİR -->
+
+                    </div>
+                    <div class="col-md-3">
+
+                        <!-- WIDGET SAATİNİ BAŞLAT -->
+                        <div class="widget widget-danger widget-padding-sm">
+                            <div class="widget-big-int plugin-clock">00:00</div>
+                            <div class="widget-subtitle plugin-date">Yükleniyor...</div>
+                            <div class="widget-controls">
+                                <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="left" title="Widget'i Kaldır"><span class="fa fa-times"></span></a>
+                            </div>
+
+                        </div>
+                        <!-- WIDGET SAATİNİ BAŞLAT -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

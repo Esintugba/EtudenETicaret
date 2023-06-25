@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ETicaret",
+    "\\ETicaret\\ETicaret",
+    "\\ETicaret\\ETicaret\\ETicaret",
+    "\\ETicaret\\ETicaret\\ETicaret\\Areas",
+    "\\ETicaret\\ETicaret\\ETicaret\\Areas\\Admin",
+    "\\ETicaret\\ETicaret\\ETicaret\\Areas\\Admin\\Controllers",
+    "\\ETicaret\\ETicaret\\ETicaret\\Views",
+    "\\ETicaret\\ETicaret\\ETicaret\\Views\\Home",
+    "\\ETicaret\\ETicaret\\ETicaret\\Views\\Kurumsal"
+  ],
+  "SelectedNode": "\\ETicaret\\ETicaret\\ETicaret\\Areas\\Admin\\Controllers\\GirisController.cs",
+  "PreviewInSolutionExplorer": false
+}

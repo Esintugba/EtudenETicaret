@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<html>
+    <body>
+    <div class="banner_section layout_padding">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h1 class="banner_taital">T-Shirtler</h1>
+                                <p class="banner_text">Erzurum Teknik Üniversitesi'nin gururunu ve bağlılığını her daim yanınızda taşıyın! Özel olarak tasarlanmış Erzurum Teknik Üniversitesi logosunun baskılı olduğu tişörtümüz, hem şık hem de anlamlı bir seçenek sunuyor.</p>
+                                <div class="read_bt"><a href="/Urunler/Urunler/">Gözat</a></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="banner_img"><img src="~/images/Urunler/T-shirt.png" width="500px" height="400px">  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h1 class="banner_taital">Sweatshirtler</h1>
+                                <p class="banner_text">Erzurum Teknik Üniversitesi Logolu Sweatshirt ile stilinizi tamamlayın ve üniversite aidiyetinizi sergileyin. Hem kendiniz için bir hediye seçeneği olarak düşünebilir, hem de sevdiklerinizi mutlu edebilirsiniz.</p>
+                                <div class="read_bt"><a href="/Urunler/Urunler/">Gözat</a></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="banner_img"><img src="~/images/Urunler/Sweatshirt.png" width="500px" height="400px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h1 class="banner_taital">Oyuncak Ayılar</h1>
+                                <p class="banner_text">Sevgiyi ve üniversite ruhunu en sevimli şekilde temsil eden Erzurum Teknik Üniversitesi logolu oyuncak ayılarımızla tanışın! Bu özel oyuncak ayılar, hem çocukların hem de üniversiteye bağlılık duyan herkesin keyifle sahip olabileceği harika bir seçenektir.</p>
+                                <div class="read_bt"><a href="/Urunler/Urunler/">Gözat</a></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="banner_img"><img src="~/images/Urunler/COCUKLARA/pelusayicik.png" width="400px" height="300px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h1 class="banner_taital">Hobi Malzemeleri</h1>
+                                <p class="banner_text">Heyecan verici bir ürünle karşınızdayız! Erzurum Teknik Üniversitesi logosunun baskılı olduğu uçak maketiyle, havacılık tutkunları ve üniversite gururunu bir araya getiriyoruz. Bu özel uçak maketi, hem koleksiyonerlerin hem de havacılık meraklılarının ilgisini çekecek mükemmel bir seçenektir.</p>
+                                <div class="read_bt"><a href="/Urunler/Urunler/">Gözat</a></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="banner_img"><img src="~/images/Urunler/MAKET/maketetu.png" width="550px" height="450px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product_section layout_padding">
+        <div class="container">
+            <div class="row">
+                @await Html.PartialAsync("~/Views/Home/Partial1.cshtml")
+            </div>
+        </div>
+    </div>
+
+    <div class="about_section">
+        <div class="container">
+            <div class="about_section_main">
+                @await Html.PartialAsync("~/Views/Home/Hakkinda.cshtml")
+                </div>
+                </div>
+                </div>
+   
+    <div class="product_section layout_padding ">
+        <div class="container">
+           <div class="row">
+                @await Html.PartialAsync("~/Views/Home/Partial2.cshtml")
+               </div>
+               </div>
+               </div>
+    </body>
+</html>
+    

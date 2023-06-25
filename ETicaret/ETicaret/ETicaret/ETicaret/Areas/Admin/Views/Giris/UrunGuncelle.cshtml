@@ -1,0 +1,35 @@
+﻿@model ETicaret.Models.Urunler
+
+@{
+    ViewBag.Title = "UrunGuncelle";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Ürün Güncelleme Sayfası</h2>
+
+<br />
+@using (Html.BeginForm("UrunGuncelle", "Giris", FormMethod.Post))
+{
+
+    @Html.LabelFor(x => x.Id)
+    @Html.TextBoxFor(x => x.Id, new { @class = "form-control", @readonly="readonly" })
+    <br />
+    @Html.LabelFor(x => x.Name)
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.CategoryId)
+    @Html.TextBoxFor(x => x.CategoryId, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.ImageUrl)
+    @Html.TextAreaFor(x => x.ImageUrl,new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.Price)
+    @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.Description)
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Ürün Güncelle</button>
+
+}

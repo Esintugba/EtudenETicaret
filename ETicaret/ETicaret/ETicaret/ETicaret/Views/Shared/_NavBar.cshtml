@@ -1,0 +1,31 @@
+﻿@{
+    var kategoriListesi = ViewBag.Kategori as IEnumerable<Kategori>;
+}
+<style>
+    .nav {
+        box-shadow: -4px 8px 4px rgb(250 250 250);
+        .navbar-brand
+
+    {
+    }
+</style>
+<div class="container">
+    <ul class="nav justify-content-center" style=" font-size:18px; margin-top: 2%;">
+        <li>
+            <a class="navbar-brand" href="#">
+                <img src="/images/Urunler/etuden2.png" alt="Bootstrap" width="70%" height="24">
+            </a>
+        </li>
+        <li>
+            <a asp-controller="Urunler" asp-action="Urunler" class="nav-link active">Tüm Ürünler</a>
+        </li>
+
+        @foreach (var kategori in kategoriListesi)
+        {
+            <li class="nav-item">
+                <a asp-controller="Urunler" asp-action="getkategori" asp-route-id="@kategori.Id" class="nav-link active">@kategori.Name</a>
+            </li>
+        }
+
+    </ul>
+</div>

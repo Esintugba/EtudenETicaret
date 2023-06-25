@@ -1,0 +1,161 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ETicaret
+build_property.RootNamespace = ETicaret
+build_property.ProjectDir = C:\Users\ESİN TUĞBA DURUR\Desktop\ETicaret\ETicaret\ETicaret\ETicaret\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ESİN TUĞBA DURUR\Desktop\ETicaret\ETicaret\ETicaret\ETicaret
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/Anasayfa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcQW5hc2F5ZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/Giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcR2lyaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/HakkimizdaDüzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcSGFra2ltaXpkYUTDvHplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/HakkimizdaSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcSGFra2ltaXpkYVNpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/MailGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcTWFpbEdldGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/MailListele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcTWFpbExpc3RlbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/MusteriListele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcTXVzdGVyaUxpc3RlbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/UrunGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcVXJ1bkd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/UrunListele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcVXJ1bkxpc3RlbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/UrunSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcVXJ1blNpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/YeniKategori.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcWWVuaUthdGVnb3JpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/YeniKurumsal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcWWVuaUt1cnVtc2FsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/YeniMusteri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcWWVuaU11c3RlcmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/YeniUrun.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcWWVuaVVydW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/YorumGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcWW9ydW1HZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Giris/YorumListele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lyaXNcWW9ydW1MaXN0ZWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Hata/Hata.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGF0YVxIYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Home/Anasayfa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbmFzYXlmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Home/Hakkinda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIYWtraW5kYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Home/Partial1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Home/Partial2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Iletisim/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1cSWxldGlzaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Kurumsal/Kurumsal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VydW1zYWxcS3VydW1zYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Musteri/Musteri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxNdXN0ZXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Shared/_Layoutcshtml.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRjc2h0bWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Shared/_NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Urunler/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlclxEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Urunler/getkategori.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlclxnZXRrYXRlZ29yaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Urunler/Urunler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlclxVcnVubGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESİN TUĞBA DURUR/Desktop/ETicaret/ETicaret/ETicaret/ETicaret/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eub4llqhs4

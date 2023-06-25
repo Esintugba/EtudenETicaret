@@ -1,0 +1,23 @@
+﻿@model IEnumerable<ETicaret.Models.Kurumsal>
+@{
+    ViewData["Title"] = "Kurumsal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="about_section layout_padding">
+        <div class="container">
+            <div class="about_section_main">
+                <div class="row">
+                     @foreach(var item in Model)
+                            {
+                            <div><img src="@item.ImageUrl" ></div>
+                            <br />
+                            <br />
+                            <br />
+                                <p>@item.Aciklama</p>
+                            }
+                </div>
+            </div>
+        </div>
+    </div>
+    }

@@ -1,0 +1,28 @@
+﻿@using ETicaret.Models
+@model List<Kurumsal>
+
+@{
+    ViewBag.Title = "Hakkimizda";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>FOTOĞRAF</th>
+        <th>AÇIKLAMA</th>
+        <th>SİL</th>
+        <th>GÜNCELLE</th>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.ImageUrl</td>
+            <td>@x.Aciklama</td>
+            <td><a href="/Areas/Admin/Giris/HakkimizdaSil/@x.Id" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Areas/Admin/Giris/HakkimizdaGetir/@x.Id" class="btn btn-warning">Güncelle</a></td>
+        </tr>
+    }
+    </table>
